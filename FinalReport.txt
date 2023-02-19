@@ -1,0 +1,1 @@
+{"cpe:2.3:a:nginx:nginx:1.23.2": 2, "cpe:2.3:a:nginx:nginx:*": 19, "cpe:2.3:a:nginx:nginx:1.18.0": 8, "cpe:2.3:a:nginx:nginx:1.13.0": 1, "cpe:2.3:a:nginx:nginx:1.20.1": 1, "cpe:2.3:a:nginx:nginx:1.20.2": 1, "cpe:2.3:a:nginx:nginx:1.21.6": 2, "cpe:2.3:a:nginx:nginx:1.12.1": 1, "cpe:2.3:a:nginx:nginx:1.23.1": 2, "cpe:2.3:a:nginx:nginx:1.22.0": 2}
