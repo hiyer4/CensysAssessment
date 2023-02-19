@@ -1,0 +1,21 @@
+Part 1 (research)
+
+        The name of the software that is installed and running on the IP {114.119.117.220} http service is Nginx. I identified
+        this by looking at the services.software.product value in the Host Summary Censys report. 
+
+        The version of the Nginx software is not identified by the censys report as there is no services.software.version tab
+        as seen with other Nginx hosts. Moreover the CPE (common platform enumeration) value is shown by services.software.uniform_resource_identifier
+        as cpe:2.3:a:nginx:nginx:*:*:*:*:*:*:*:*. This specific cpe has the wildcard asterisk character (*) for the version component, which means 
+        that the version is unidentified. 
+
+
+Part 2 (development)
+
+        The README.md file shows how to run the nginxenumerator.py and obtain the version count/info for nginx hosts. The script obtains the CPE for each 
+        host that is running Nginx software and outputs a count of the number of servers running that specific nginx version.
+
+
+Part 3 (light analysis)
+
+        The README.md file shows how to run the lightanalysis.py and obtain general information on the number of nginx servers running HTTP or HTTPs 
+        as well as the different ports running the software.
