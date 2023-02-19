@@ -21,3 +21,8 @@ LightAnalysis
 This is a tool that performs analaysis by aggregating hosts running nginx software and divides the hosts into
 two buckets (HTTP and HTTPS). The tool also divides the hosts into 5 buckers to differentiate the ports running
 the nginx software. 
+
+
+Usage is as follows:
+
+#python3 lightanalysis.py
