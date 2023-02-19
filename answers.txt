@@ -1,7 +1,9 @@
 Part 1 (research)
 
         The name of the software that is installed and running on the IP {114.119.117.220} http service is Nginx. I identified
-        this by looking at the services.software.product value in the Host Summary Censys report. 
+        this by looking at the services.software.product value in the Host Summary Censys report. I was also able to verfiy the 
+        software by doing a quick TCP port scan of the IP address using nmap as well as using enumeration tools with a C2 framework
+        (Metasploit). 
 
         The version of the Nginx software is not identified by the censys report as there is no services.software.version tab
         as seen with other Nginx hosts. Moreover the CPE (common platform enumeration) value is shown by services.software.uniform_resource_identifier
