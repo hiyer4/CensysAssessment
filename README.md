@@ -1,6 +1,6 @@
 # CensysAssessment
 
-NginxEnumerator
+**NginxEnumerator**
 
 
 This is a tool that uses Censys to scrape and filter for hosts with http services and Nginx software installed. 
@@ -15,7 +15,8 @@ Usage is as follows:
 
 
 
-LightAnalysis
+
+**LightAnalysis**  
 
 
 This is a tool that performs analaysis by aggregating hosts running nginx software and divides the hosts into
